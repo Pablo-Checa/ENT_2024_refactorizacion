@@ -19,7 +19,7 @@ public class Calculadora {
 
 	public int dividir(int dividendo, int divisor) {
 		if (divisor == 0) {
-			System.out.println("Error: No se puede dividir por cero.");
+			//TODO "Division por cero, lanzar excepción."
 			return 0;
 
 		} else {
