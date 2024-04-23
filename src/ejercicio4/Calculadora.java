@@ -24,7 +24,5 @@ public class Calculadora {
 		default: throw new Exception("Operacion Incorrecta");
 		}
 	}
-	
-	
 
 }
