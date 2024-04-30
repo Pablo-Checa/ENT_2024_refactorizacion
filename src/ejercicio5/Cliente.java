@@ -2,64 +2,43 @@ package ejercicio5;
 
 public class Cliente {
 
+	/**
+	 * Atributos que caracteriza al cliente.
+	 */
 	private String nombre;
 	private String apellido;
-	private String direccion;
-	private String ciudad;
-	private String codigoPostal;
+	private Direccion direccion;
 
-	// Getters y setters
-
+	/**
+	 * Setter del nombre.
+	 * @param nombre Parametro nombre nuevo.
+	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
+	/**
+	 * Getter del nombre.
+	 * @return Devuelve el nombre que haya.
+	 */
 	public String getNombre() {
 		return nombre;
 	}
 
+	/**
+	 * Getter del apellido.
+	 * @return Devuelve el apellido que haya.
+	 */
 	public String getApellido() {
 		return apellido;
 	}
 
-	public String getDireccion() {
-		return direccion;
-	}
-
-	public String getCiudad() {
-		return ciudad;
-	}
-
-	public String getCodigoPostal() {
-		return codigoPostal;
-	}
-
+	/**
+	 * Setter del apellido.
+	 * @param apellido Parametro apellido nuevo.
+	 */
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
-
-	public void setDireccion(String direccion) {
-		this.direccion = direccion;
-	}
-
-	public void setCiudad(String ciudad) {
-		this.ciudad = ciudad;
-	}
-
-	public void setCodigoPostal(String codigoPostal) {
-		this.codigoPostal = codigoPostal;
-	}
-
-	/**
-	 * Operacion que sirve para enviar un correo a un cliente
-	 * @param cliente Parametro para introducir el cliente al que queremos enviarle el correo.
-	 */
-	
-    public void enviarCorreo(Cliente cliente) {
-       
-    	
-    }
-    
-    //No hace falta hacer otra operacion si queremos cambiar la direccion, con el cliente.set bastaría.
 	
 }
